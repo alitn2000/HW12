@@ -1,18 +1,19 @@
 ﻿using HW12.Entities;
 using HW12.Enums;
 using HW12.Repository;
+using HW12.UserService;
 
 namespace HW12.UserServices;
 
-public class UserService : IUserService
+public class TaskService : ITaskService
 {
-    private readonly IRepository Sql = new SqlRepository();
+    private readonly ITaskRepository Sql = new TaskRepository();
     private readonly DoList dolist = new DoList();
     public void AddTask()
     {
         Console.Write("Enter your Task Title: ");
         string title = Console.ReadLine();
-        var existTask = Sql.GetByTitle(title);
+        var existTask = Sql.GetByTitle(title, UserService.UserService.CurrentUser.Id);
 
         if (existTask != null)
         {
@@ -48,13 +49,12 @@ public class UserService : IUserService
             EndTime = date,
             Priority = priorityEnum,
             Status = statusEnum,
+            UserId = UserService.UserService.CurrentUser.Id
         };
 
         Sql.Add(task);
         Console.WriteLine("Task added.");
     }
-
-
 
     public void DeleteTask()
     {
@@ -62,7 +62,7 @@ public class UserService : IUserService
         Console.Write("Enter task id :");
         if (int.TryParse(Console.ReadLine(), out int id))
         {
-            var ExistTask = Sql.GetById(id);
+            var ExistTask = Sql.GetById(id, UserService.UserService.CurrentUser.Id);
             if (ExistTask is not null)
             {
                 Sql.Delete(ExistTask);
@@ -86,7 +86,7 @@ public class UserService : IUserService
     {
         Console.WriteLine("Enter Title");
         string T = Console.ReadLine();
-        var Task = Sql.GetByTitle(T);
+        var Task = Sql.GetByTitle(T, UserService.UserService.CurrentUser.Id);
         if (Task is not null) 
         {
             Console.WriteLine(Task.ToString());
@@ -99,7 +99,12 @@ public class UserService : IUserService
 
     public void ShowAllTasks()
     {
-        var Tasks = Sql.GetAll();
+        var Tasks = Sql.GetAll(UserService.UserService.CurrentUser.Id);
+        if (Tasks is null)
+        {
+            Console.WriteLine("No task submitted");
+            return;
+        }
         foreach (var Task in Tasks)
         {
             Console.WriteLine(Task.ToString());
@@ -116,7 +121,7 @@ public class UserService : IUserService
             return;
         }
 
-        var ExistTask = Sql.GetById(id);
+        var ExistTask = Sql.GetById(id, UserService.UserService.CurrentUser.Id);
         if (ExistTask == null)
         {
             Console.WriteLine("dont found task with this id!!!");

@@ -2,7 +2,7 @@
 
 namespace HW12.Repository;
 
-public class SqlRepository : IRepository
+public class TaskRepository : ITaskRepository
 {
     private readonly AppDbContext context = new AppDbContext();
     public void Add(DoList Task)
@@ -17,27 +17,29 @@ public class SqlRepository : IRepository
         context.SaveChanges();
     }
 
-    public List<DoList> GetAll()
+    public List<DoList> GetAll(int Id)
     {
-        var Tasks = context.DoLists.ToList();
+        var Tasks = context.DoLists.Where(t => t.UserId ==Id)
+            .OrderBy(t => t.EndTime)
+            .ToList();
         return Tasks;
     }
 
-    public DoList GetById(int Id)
+    public DoList GetById(int Id, int UserId)
     {
-       var Task = context.DoLists.FirstOrDefault(t => t.Id == Id);
+       var Task = context.DoLists.FirstOrDefault(t => t.Id == Id && t.UserId == UserId);
         return Task;
     }
 
-    public DoList GetByTitle(string Title)
+    public DoList GetByTitle(string Title, int Id)
     {
-        var Task = context.DoLists.FirstOrDefault(t => t.Title == Title);
+        var Task = context.DoLists.FirstOrDefault(t => t.Title == Title && t.UserId == Id);
         return Task;
     }
 
     public void Update(int Id,DoList Task)
     {
-       var CurrentTask = GetById(Id);
+       var CurrentTask = GetById(Id, UserService.UserService.CurrentUser.Id);
         CurrentTask.Title = Task.Title;
         CurrentTask.Description = Task.Description;
         CurrentTask.EndTime = Task.EndTime;

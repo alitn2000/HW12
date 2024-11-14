@@ -1,6 +1,6 @@
 ﻿namespace HW12.UserServices;
 
-public interface IUserService
+public interface ITaskService
 {
     void AddTask();
     void DeleteTask();

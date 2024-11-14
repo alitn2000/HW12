@@ -11,6 +11,8 @@ public class DoList
     public StatusEnum Status { get; set; }
     public PriorityEnum Priority { get; set; }
     public DateTime EndTime { get; set; }
+    public int UserId { get; set; }
+    public User User { get; set; }
 
     public override string ToString()
     {
