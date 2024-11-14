@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\HW\u0060S\\HW12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\repository\\sqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\repository\\sqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\userservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\userservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\enums\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\enums\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\entities\\dolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\entities\\dolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\migrations\\20241113180627_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\migrations\\20241113180627_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\connectionstrings\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\connectionstrings\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\enums\\priorityenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\enums\\priorityenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\UserServices\\UserService.cs",
+              "RelativeDocumentMoniker": "HW12\\UserServices\\UserService.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\UserServices\\UserService.cs",
+              "RelativeToolTip": "HW12\\UserServices\\UserService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAHcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:41:58.093Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SqlRepository.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\SqlRepository.cs",
+              "RelativeDocumentMoniker": "HW12\\Repository\\SqlRepository.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\SqlRepository.cs",
+              "RelativeToolTip": "HW12\\Repository\\SqlRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:21:28.288Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\UserServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "HW12\\UserServices\\IUserService.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\UserServices\\IUserService.cs",
+              "RelativeToolTip": "HW12\\UserServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:34:37.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DoList.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Entities\\DoList.cs",
+              "RelativeDocumentMoniker": "HW12\\Entities\\DoList.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Entities\\DoList.cs",
+              "RelativeToolTip": "HW12\\Entities\\DoList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:09:29.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HW12\\Repository\\AppDbContext.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\AppDbContext.cs",
+              "RelativeToolTip": "HW12\\Repository\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:41:47.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatusEnum.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Enums\\StatusEnum.cs",
+              "RelativeDocumentMoniker": "HW12\\Enums\\StatusEnum.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Enums\\StatusEnum.cs",
+              "RelativeToolTip": "HW12\\Enums\\StatusEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:22:38.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "HW12\\Repository\\IRepository.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\IRepository.cs",
+              "RelativeToolTip": "HW12\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:11:30.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Program.cs",
+              "RelativeDocumentMoniker": "HW12\\Program.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Program.cs",
+              "RelativeToolTip": "HW12\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:13:34.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PriorityEnum.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Enums\\PriorityEnum.cs",
+              "RelativeDocumentMoniker": "HW12\\Enums\\PriorityEnum.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Enums\\PriorityEnum.cs",
+              "RelativeToolTip": "HW12\\Enums\\PriorityEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:29:39.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\ConnectionStrings\\Connection.cs",
+              "RelativeDocumentMoniker": "HW12\\ConnectionStrings\\Connection.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\ConnectionStrings\\Connection.cs",
+              "RelativeToolTip": "HW12\\ConnectionStrings\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:35:37.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241113180627_init.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Migrations\\20241113180627_init.cs",
+              "RelativeDocumentMoniker": "HW12\\Migrations\\20241113180627_init.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Migrations\\20241113180627_init.cs",
+              "RelativeToolTip": "HW12\\Migrations\\20241113180627_init.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:06:28.144Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
