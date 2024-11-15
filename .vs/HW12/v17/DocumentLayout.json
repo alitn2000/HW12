@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\c#\\HW\u0060S\\HW12\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\taskservice\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\taskservice\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|solutionrelative:hw12\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{078AE48F-0571-4B2A-88FF-1463A26ED16D}|HW12\\HW12.csproj|d:\\c#\\hw\u0060s\\hw12\\hw12\\repository\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaskService.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\TaskService\\TaskService.cs",
               "RelativeDocumentMoniker": "HW12\\TaskService\\TaskService.cs",
@@ -95,18 +95,17 @@
               "ViewState": "AgIAAEcAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T18:41:58.093Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\TaskRepository.cs",
               "RelativeDocumentMoniker": "HW12\\Repository\\TaskRepository.cs",
               "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\TaskRepository.cs",
               "RelativeToolTip": "HW12\\Repository\\TaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T18:21:28.288Z",
               "IsPinned": true,
@@ -126,8 +125,7 @@
               "RelativeToolTip": "HW12\\Repository\\ITaskRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:11:30.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T18:11:30.608Z"
             },
             {
               "$type": "Document",
@@ -143,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\IUserRepository.cs",
               "RelativeDocumentMoniker": "HW12\\Repository\\IUserRepository.cs",
@@ -151,12 +149,11 @@
               "RelativeToolTip": "HW12\\Repository\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:18:49.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:18:49.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "HW12\\Repository\\UserRepository.cs",
@@ -164,18 +161,17 @@
               "RelativeToolTip": "HW12\\Repository\\UserRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T07:52:27.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T07:52:27.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW12\\HW12\\UserService\\UserService.cs",
               "RelativeDocumentMoniker": "HW12\\UserService\\UserService.cs",
               "ToolTip": "D:\\c#\\HW\u0060S\\HW12\\HW12\\UserService\\UserService.cs",
               "RelativeToolTip": "HW12\\UserService\\UserService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T07:45:19.564Z",
               "EditorCaption": ""
@@ -190,8 +186,7 @@
               "RelativeToolTip": "HW12\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:13:34.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T16:13:34.555Z"
             },
             {
               "$type": "Document",

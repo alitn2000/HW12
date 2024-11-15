@@ -25,13 +25,13 @@ public class TaskRepository : ITaskRepository
         return Tasks;
     }
 
-    public DoList GetById(int Id, int UserId)
+    public DoList? GetById(int Id, int UserId)
     {
        var Task = context.DoLists.FirstOrDefault(t => t.Id == Id && t.UserId == UserId);
         return Task;
     }
 
-    public DoList GetByTitle(string Title, int Id)
+    public DoList? GetByTitle(string Title, int Id)
     {
         var Task = context.DoLists.FirstOrDefault(t => t.Title == Title && t.UserId == Id);
         return Task;
