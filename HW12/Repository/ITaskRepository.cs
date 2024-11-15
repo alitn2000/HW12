@@ -12,5 +12,6 @@ public interface ITaskRepository
     void Add(DoList Task);
     void Delete(DoList Task);
     void Update(int id ,DoList Task);
+    List<DoList> Search(string Title);
 
 }

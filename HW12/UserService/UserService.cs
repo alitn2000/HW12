@@ -14,15 +14,10 @@ public class UserService : IUserService
         string userName = Console.ReadLine();
         Console.Write("Enter Password:");
         string Pass = Console.ReadLine();
-        var user = userRepo.GetUserByName(userName);
+        var user = userRepo.GetUser(userName,Pass);
         if (user is null)
         {
-            Console.WriteLine("User not found");
-            return false;
-        }
-        if (user.Password != Pass)
-        {
-            Console.WriteLine("Password is incorrect!!!");
+            Console.WriteLine("Username or password is incorrect");
             return false;
         }
         CurrentUser = user;
@@ -34,8 +29,8 @@ public class UserService : IUserService
     {
         Console.Write("Enter your UserName: ");
         string userName = Console.ReadLine();
-        var ExistUser = userRepo.GetUserByName(userName);
-        if (ExistUser is not null)
+        bool Flag = userRepo.CheckUserExist(userName);
+        if (Flag)
         {
             Console.WriteLine("User with this username is already exist!!!");
             return;

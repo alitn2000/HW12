@@ -8,7 +8,6 @@ namespace HW12.UserServices;
 public class TaskService : ITaskService
 {
     private readonly ITaskRepository Sql = new TaskRepository();
-    private readonly DoList dolist = new DoList();
     public void AddTask()
     {
         Console.Write("Enter your Task Title: ");
@@ -86,14 +85,18 @@ public class TaskService : ITaskService
     {
         Console.WriteLine("Enter Title");
         string T = Console.ReadLine();
-        var Task = Sql.GetByTitle(T, UserService.UserService.CurrentUser.Id);
-        if (Task is not null) 
+        var SearchedTasks = Sql.Search(T);
+        if (SearchedTasks != null && SearchedTasks.Any())
         {
-            Console.WriteLine(Task.ToString());
+            foreach (var Task in SearchedTasks)
+            {
+                Console.WriteLine(Task.ToString());
+            }
         }
         else
         {
-            Console.WriteLine("Task not found");
+            Console.WriteLine("No such task find with your string!!!");
+            return;
         }
     }
 

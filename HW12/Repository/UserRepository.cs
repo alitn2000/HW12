@@ -12,9 +12,9 @@ public class UserRepository : IUserRepository
         context.Users.Add(user);
         context.SaveChanges();
     }
-    public User GetUserByName(string userName)
+    public User GetUser(string userName, string Pass)
     {
-        var user = context.Users.FirstOrDefault(x => x.UserName ==userName);
+        var user = context.Users.FirstOrDefault(x => x.UserName ==userName && x.Password == Pass);
         return user;
     }
     public List<User> GetAllUsers()
@@ -22,5 +22,9 @@ public class UserRepository : IUserRepository
         return context.Users.ToList();
     }
 
-
+    public bool CheckUserExist(string userName)
+    {
+        var Flag = context.Users.Any(x => x.UserName == userName);
+        return Flag;
+    }
 }

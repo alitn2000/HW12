@@ -37,6 +37,12 @@ public class TaskRepository : ITaskRepository
         return Task;
     }
 
+    public List<DoList> Search(string Title)
+    {
+       var Result = context.DoLists.Where(t => t.Title.Contains(Title)).ToList();
+        return Result;
+    }
+
     public void Update(int Id,DoList Task)
     {
        var CurrentTask = GetById(Id, UserService.UserService.CurrentUser.Id);
